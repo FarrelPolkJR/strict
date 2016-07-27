@@ -1,3 +1,31 @@
+/*====MEDIA QUERIES====*/
+@media (max-width: 450px) {
+	.logo {
+		width: 100%;
+	}
+	.cta {
+		width: 100%;
+	}
+	.info {
+		width: 80%;
+	}
+	.features {
+		width: 22%;
+	}
+	.iconbox {
+		float: inherit;
+	}
+	.work {
+		width: 100%;
+	}
+	.contact {
+		width: 60%;
+	}
+    .socialMedia a {
+		display: none;
+	 }
+}
+
 *{
 	font-family: 'Lato', Sans-Serif;
 }
